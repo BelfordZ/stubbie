@@ -6,7 +6,7 @@ test.js
 var Stubbie = require('stubbie');
 var fs = require('fs');
 
-var app = require('./app.js');
+var app = require('./appCode.js');
 
 var readFileStub = new Stubbie(fs, 'readFile', null, "Instead of calling readFile, just callback with this result instead");
 
