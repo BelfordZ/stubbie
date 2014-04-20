@@ -1,0 +1,26 @@
+{
+  "name": "stubbie",
+  "version": "0.0.0",
+  "description": "Stubbie is a testing utility that makes unit testing asynchronous functions easy.",
+  "main": "stubbie.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BelfordZ/stubbie.git"
+  },
+  "keywords": [
+    "test",
+    "testing",
+    "mock",
+    "async",
+    "stub"
+  ],
+  "author": "Zachary Belford <belfordz66@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BelfordZ/stubbie/issues"
+  },
+  "homepage": "https://github.com/BelfordZ/stubbie",
+  "dependencies": {
+    "sinon": "~1.9.1"
+  }
+}
